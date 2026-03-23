@@ -1,0 +1,15 @@
+from enum import Enum
+class Disease(str, Enum):
+    disease1 = "女性生殖系统解剖"
+    disease2 = "女性生殖系统生理"
+    disease3 = "妊娠生理"
+    disease4 = "妊娠诊断"
+    disease5 = "产前检查与孕期保健"
+    disease6 = "正常分娩"
+    disease7 = "正常产褥"
+    disease8 = "病理妊娠"
+    disease9 = "妊娠合并内、外科疾病"
+    disease10 = "遗传咨询、产前筛查、产前诊断"
+    disease11 = "异常分娩"
+    disease12 = "分娩期并发症"
+    disease13 = "异常产褥"

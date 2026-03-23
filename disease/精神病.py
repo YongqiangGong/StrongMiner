@@ -1,0 +1,16 @@
+from enum import Enum
+class Disease(str, Enum):
+    disease1 = "神经系统概论"
+    disease2 = "周围神经病"
+    disease3 = "颅脑病变"
+    disease4 = "颅脑损伤"
+    disease5 = "脑血管疾病"
+    disease6 = "颅内肿瘤"
+    disease7 = "颅内压增高"
+    disease8 = "脑疝"
+    disease9 = "帕金森病"
+    disease10 = "多发性硬化"
+    disease11 = "偏头痛"
+    disease12 = "单纯疱疹性脑炎"
+    disease13 = "癫痫"
+    disease14 = "重症肌无力"
